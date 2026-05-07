@@ -1,4 +1,4 @@
-# Group 8 - MCE 415: YOLOv10 Road Anomaly Detection
+# YOLOv10 Road Anomaly Detection
 ## Submission Inference Package
 
 This folder is ready for evaluation and contains a one-click launcher for Windows.
@@ -80,5 +80,3 @@ python inference.py --weights weights/lr_0.001/best.pt --image road.jpg --conf 0
 - CLI inference script included
 - Dependencies listed
 - All 5 trained weight files included
-
-Group 8 - MCE 415 - Federal University of Technology Minna
