@@ -1,0 +1,44 @@
+# =============================================================================
+# Group 8 — MCE 415: YOLOv10 Road Anomaly Detection
+# requirements.txt
+# =============================================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# For a clean isolated environment (recommended):
+#   python -m venv venv
+#   source venv/bin/activate        # Linux / Mac
+#   venv\Scripts\activate           # Windows
+#   pip install -r requirements.txt
+# =============================================================================
+
+# ── Core inference ────────────────────────────────────────────────────────────
+ultralytics>=8.2.50         # YOLOv10 support
+torch>=2.0.0                # PyTorch (CPU version installs by default)
+torchvision>=0.15.0         # Required internally by Ultralytics
+
+# ── Image processing ──────────────────────────────────────────────────────────
+opencv-python>=4.8.0        # Image read/write and bounding-box drawing
+Pillow>=9.5.0               # PIL — used to display images in Tkinter
+numpy>=1.24.0               # Array operations
+
+# NOTE: Tkinter (the UI) is built into Python — no install needed.
+
+# ── Utilities (used by analysis notebook) ────────────────────────────────────
+pyyaml>=6.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+gdown>=4.7.0
+
+# =============================================================================
+# GPU ACCELERATION (optional but strongly recommended)
+# =============================================================================
+# By default, pip installs the CPU-only version of PyTorch.
+# For CUDA GPU support, replace torch/torchvision above with:
+#
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Check your CUDA version:  nvidia-smi
+# Pick the right command  :  https://pytorch.org/get-started/locally/
+# =============================================================================
