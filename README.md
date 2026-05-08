@@ -225,7 +225,7 @@ The confusion matrix shows 78% of crack instances misclassified as background. H
 | `ModuleNotFoundError` | Run `pip install -r requirements.txt` |
 | No weights found | Confirm `.pt` files are in `weights/<lr_folder>/best.pt` |
 | `CUDA out of memory` | Use `--imgsz 320` or select 320 in the app |
-| Slow on CPU | Normal — install CUDA PyTorch for GPU speed (see `requirements.txt`) |
+| Slow on CPU | Normal - install CUDA PyTorch for GPU speed (see `requirements.txt`) |
 
 ---
 
