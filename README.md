@@ -91,7 +91,7 @@ The raw datasets required significant preprocessing before unification (`prepare
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/yolov10-road-anomaly-detection.git
+git clone https://github.com/Ayomide-16/yolov10-road-anomaly-detection.git
 cd yolov10-road-anomaly-detection
 ```
 
@@ -231,7 +231,7 @@ The confusion matrix shows 78% of crack instances misclassified as background. H
 
 ## License
 
-MIT — free to use, modify, and distribute with attribution.
+MIT - free to use, modify, and distribute with attribution.
 
 ---
 
